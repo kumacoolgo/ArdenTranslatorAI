@@ -1,0 +1,24 @@
+===== [1/2] GUI (windowed) =====
+36332 INFO: Copying 0 resources to EXE
+36332 INFO: Embedding manifest in EXE
+36449 INFO: Appending PKG archive to EXE
+36593 INFO: Fixing EXE headers
+37331 INFO: Building EXE from EXE-00.toc completed successfully.
+37396 INFO: Build complete! The results are available in: C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\dist
+GUI_EXIT=0
+
+===== [2/2] console diagnostic =====
+35181 INFO: Copying 0 resources to EXE
+35181 INFO: Embedding manifest in EXE
+35308 INFO: Appending PKG archive to EXE
+35456 INFO: Fixing EXE headers
+36197 INFO: Building EXE from EXE-00.toc completed successfully.
+36245 INFO: Build complete! The results are available in: C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\dist
+CHECK_EXIT=0
+
+===== dist =====
+total 22752
+drwxr-xr-x 1 cheny 197611        0 Oct  8 19:32 .
+drwxr-xr-x 1 cheny 197611        0 Oct  8 19:32 ..
+-rwxr-xr-x 1 cheny 197611 11647314 Oct  8 19:32 ArdenTranslatorAI-check.exe
+-rwxr-xr-x 1 cheny 197611 11644367 Oct  8 19:32 ArdenTranslatorAI.exe

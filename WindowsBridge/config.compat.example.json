@@ -1,0 +1,8 @@
+{
+  "provider": "zhipu",
+  "compat": {
+    "base_url": "https://你的中转站地址/v1",
+    "model": "gpt-4o-mini",
+    "api_key_env": "MY_API_KEY"
+  }
+}

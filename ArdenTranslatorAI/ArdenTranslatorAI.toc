@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: ArdenTranslator AI
+## Notes: WoW 3.3.5-style AI chat translation bridge (protocol ATAI2 / @ATAI1@)
+## Author: OpenAI
+## Version: 1.1.0
+## SavedVariables: ArdenTranslatorAIDB
+
+ArdenTranslatorAI.lua

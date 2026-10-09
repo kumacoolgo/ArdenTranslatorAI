@@ -1,0 +1,51 @@
+{
+  "provider": "zhipu",
+  "compat": {
+    "base_url": "https://open.bigmodel.cn/api/paas/v4",
+    "model": "glm-4-flash-250414",
+    "api_key_env": "ZHIPU_API_KEY",
+    "extra_headers": {},
+    "extra_body": {}
+  },
+  "wow_path": "",
+  "overlay": {
+    "x": 40,
+    "y": 520,
+    "width": 500,
+    "height": 200,
+    "alpha": 0.88,
+    "font_size": 9,
+    "max_lines": 7
+  },
+  "translation": {
+    "target": "Simplified Chinese",
+    "skip_chinese": true,
+    "max_workers": 2,
+    "request_timeout_seconds": 12,
+    "retry_attempts": 3,
+    "retry_backoff_seconds": 0.8,
+    "startup_replay_seconds": 600,
+    "protected_terms": [
+      "ArdenWoW",
+      "Ascension",
+      "Runemaster",
+      "Geo Primalist",
+      "Alliance",
+      "Horde",
+      "PvP",
+      "PvE",
+      "DPS",
+      "AOE",
+      "LFG",
+      "LFM",
+      "BiS",
+      "DoT",
+      "HoT",
+      "CC"
+    ]
+  },
+  "mute": {
+    "labels": [],
+    "channels": []
+  }
+}

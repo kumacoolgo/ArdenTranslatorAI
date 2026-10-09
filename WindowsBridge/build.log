@@ -1,0 +1,169 @@
+Build interpreter: C:\Users\cheny\AppData\Local\Programs\Python\Python311\python.exe
+
+Requirement already satisfied: pyinstaller in c:\users\cheny\appdata\local\programs\python\python311\lib\site-packages (6.22.3)
+Requirement already satisfied: altgraph in c:\users\cheny\appdata\local\programs\python\python311\lib\site-packages (from pyinstaller) (0.17.5)
+Requirement already satisfied: packaging>=22.0 in c:\users\cheny\appdata\local\programs\python\python311\lib\site-packages (from pyinstaller) (26.3)
+Requirement already satisfied: pefile>=2022.5.30 in c:\users\cheny\appdata\local\programs\python\python311\lib\site-packages (from pyinstaller) (2024.8.26)
+Requirement already satisfied: pyinstaller-hooks-contrib>=2026.7 in c:\users\cheny\appdata\local\programs\python\python311\lib\site-packages (from pyinstaller) (2026.8)
+Requirement already satisfied: pywin32-ctypes>=0.2.1 in c:\users\cheny\appdata\local\programs\python\python311\lib\site-packages (from pyinstaller) (0.2.3)
+Requirement already satisfied: setuptools>=42.0.0 in c:\users\cheny\appdata\local\programs\python\python311\lib\site-packages (from pyinstaller) (65.5.0)
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: C:\Users\cheny\AppData\Local\Programs\Python\Python311\python.exe -m pip install --upgrade pip
+find: â€˜/Iâ€™: No such file or directory
+find: â€˜ArdenTranslatorAI.exeâ€™: No such file or directory
+find: â€˜/Iâ€™: No such file or directory
+find: â€˜ArdenTranslatorAI-check.exeâ€™: No such file or directory
+
+[1/2] Building GUI overlay (windowed)...
+223 DEPRECATION: Running PyInstaller as admin is not necessary nor sensible. Run PyInstaller from a non-administrator terminal. PyInstaller 7.0 will block this.
+708 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+708 INFO: Python: 3.11.9
+866 INFO: Platform: Windows-10-10.0.26300-SP0
+866 INFO: Python environment: C:\Users\cheny\AppData\Local\Programs\Python\Python311
+868 INFO: wrote C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\ArdenTranslatorAI.spec
+878 INFO: Removing temporary files and cleaning cache in C:\Users\cheny\AppData\Local\pyinstaller
+887 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\cheny\\Downloads\\ArdenTranslatorAI_v1.0.0_source\\ArdenTranslatorAI_v1\\WindowsBridge',
+ 'C:\\Program '
+ 'Files\\WorkBuddyAI\\resources\\app.asar.unpacked\\cli\\vendor\\shim',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\DLLs',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages',
+ 'C:\\Users\\cheny\\Downloads\\ArdenTranslatorAI_v1.0.0_source\\ArdenTranslatorAI_v1\\WindowsBridge']
+2767 INFO: checking Analysis
+2768 INFO: Building Analysis because Analysis-00.toc is non existent
+2768 INFO: Looking for Python shared library...
+2769 INFO: Using Python shared library: C:\Users\cheny\AppData\Local\Programs\Python\Python311\python311.dll
+2769 INFO: Running Analysis Analysis-00.toc
+2769 INFO: Target bytecode optimization level: 0
+2769 INFO: Initializing module dependency graph...
+2773 INFO: Initializing module graph hook caches...
+2809 INFO: Analyzing modules for base_library.zip ...
+7804 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+7954 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+12197 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+12456 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+15333 INFO: Caching module dependency graph...
+15405 INFO: Analyzing C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\ArdenTranslatorAI.py
+15548 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+17789 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+17793 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+19136 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+19214 INFO: Processing module hooks (post-graph stage)...
+19227 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+19245 INFO: Performing binary vs. data reclassification (923 entries)
+20938 INFO: Looking for ctypes DLLs
+20954 INFO: Analyzing run-time hooks ...
+20956 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+20963 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+21018 INFO: Creating base_library.zip...
+21058 INFO: Looking for dynamic libraries
+22147 INFO: Extra DLL search directories (AddDllDirectory): []
+22147 INFO: Extra DLL search directories (PATH): []
+23097 INFO: Warnings written to C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\build\ArdenTranslatorAI\warn-ArdenTranslatorAI.txt
+23155 INFO: Graph cross-reference written to C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\build\ArdenTranslatorAI\xref-ArdenTranslatorAI.html
+23262 INFO: checking PYZ
+23262 INFO: Building PYZ because PYZ-00.toc is non existent
+23262 INFO: Building PYZ (ZlibArchive) C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\build\ArdenTranslatorAI\PYZ-00.pyz
+23672 INFO: Building PYZ (ZlibArchive) C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\build\ArdenTranslatorAI\PYZ-00.pyz completed successfully.
+23726 INFO: checking PKG
+23726 INFO: Building PKG because PKG-00.toc is non existent
+23727 INFO: Building PKG (CArchive) ArdenTranslatorAI.pkg
+31092 INFO: Building PKG (CArchive) ArdenTranslatorAI.pkg completed successfully.
+31129 INFO: Bootloader C:\Users\cheny\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+31129 INFO: checking EXE
+31129 INFO: Building EXE because EXE-00.toc is non existent
+31129 INFO: Building EXE from EXE-00.toc
+31135 INFO: Copying bootloader EXE to C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\dist\ArdenTranslatorAI.exe
+31252 INFO: Copying icon to EXE
+31356 INFO: Copying 0 resources to EXE
+31356 INFO: Embedding manifest in EXE
+31452 INFO: Appending PKG archive to EXE
+31578 INFO: Fixing EXE headers
+32196 INFO: Building EXE from EXE-00.toc completed successfully.
+32231 INFO: Build complete! The results are available in: C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\dist
+
+[2/2] Building console diagnostic build...
+209 DEPRECATION: Running PyInstaller as admin is not necessary nor sensible. Run PyInstaller from a non-administrator terminal. PyInstaller 7.0 will block this.
+574 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+574 INFO: Python: 3.11.9
+787 INFO: Platform: Windows-10-10.0.26300-SP0
+787 INFO: Python environment: C:\Users\cheny\AppData\Local\Programs\Python\Python311
+788 INFO: wrote C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\ArdenTranslatorAI-check.spec
+797 INFO: Removing temporary files and cleaning cache in C:\Users\cheny\AppData\Local\pyinstaller
+802 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\cheny\\Downloads\\ArdenTranslatorAI_v1.0.0_source\\ArdenTranslatorAI_v1\\WindowsBridge',
+ 'C:\\Program '
+ 'Files\\WorkBuddyAI\\resources\\app.asar.unpacked\\cli\\vendor\\shim',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\DLLs',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311',
+ 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages',
+ 'C:\\Users\\cheny\\Downloads\\ArdenTranslatorAI_v1.0.0_source\\ArdenTranslatorAI_v1\\WindowsBridge']
+2623 INFO: checking Analysis
+2624 INFO: Building Analysis because Analysis-00.toc is non existent
+2624 INFO: Looking for Python shared library...
+2624 INFO: Using Python shared library: C:\Users\cheny\AppData\Local\Programs\Python\Python311\python311.dll
+2624 INFO: Running Analysis Analysis-00.toc
+2624 INFO: Target bytecode optimization level: 0
+2624 INFO: Initializing module dependency graph...
+2627 INFO: Initializing module graph hook caches...
+2657 INFO: Analyzing modules for base_library.zip ...
+7582 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+9352 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+11670 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+11853 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+15489 INFO: Caching module dependency graph...
+15583 INFO: Analyzing C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\ArdenTranslatorAI.py
+15736 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+17733 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+17738 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+19044 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+19123 INFO: Processing module hooks (post-graph stage)...
+19134 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+19154 INFO: Performing binary vs. data reclassification (923 entries)
+20307 INFO: Looking for ctypes DLLs
+20324 INFO: Analyzing run-time hooks ...
+20325 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+20330 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\cheny\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+20385 INFO: Creating base_library.zip...
+20434 INFO: Looking for dynamic libraries
+21384 INFO: Extra DLL search directories (AddDllDirectory): []
+21384 INFO: Extra DLL search directories (PATH): []
+22269 INFO: Warnings written to C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\build\ArdenTranslatorAI-check\warn-ArdenTranslatorAI-check.txt
+22317 INFO: Graph cross-reference written to C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\build\ArdenTranslatorAI-check\xref-ArdenTranslatorAI-check.html
+22422 INFO: checking PYZ
+22422 INFO: Building PYZ because PYZ-00.toc is non existent
+22422 INFO: Building PYZ (ZlibArchive) C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\build\ArdenTranslatorAI-check\PYZ-00.pyz
+22753 INFO: Building PYZ (ZlibArchive) C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\build\ArdenTranslatorAI-check\PYZ-00.pyz completed successfully.
+22798 INFO: checking PKG
+22798 INFO: Building PKG because PKG-00.toc is non existent
+22798 INFO: Building PKG (CArchive) ArdenTranslatorAI-check.pkg
+30731 INFO: Building PKG (CArchive) ArdenTranslatorAI-check.pkg completed successfully.
+30771 INFO: Bootloader C:\Users\cheny\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\run.exe
+30772 INFO: checking EXE
+30772 INFO: Building EXE because EXE-00.toc is non existent
+30772 INFO: Building EXE from EXE-00.toc
+30773 INFO: Copying bootloader EXE to C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\dist\ArdenTranslatorAI-check.exe
+30889 INFO: Copying icon to EXE
+30979 INFO: Copying 0 resources to EXE
+30979 INFO: Embedding manifest in EXE
+31093 INFO: Appending PKG archive to EXE
+31211 INFO: Fixing EXE headers
+31655 INFO: Building EXE from EXE-00.toc completed successfully.
+31687 INFO: Build complete! The results are available in: C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\dist
+
+============================================================
+ Build complete:
+   C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\dist\ArdenTranslatorAI.exe         - double-click to run
+   C:\Users\cheny\Downloads\ArdenTranslatorAI_v1.0.0_source\ArdenTranslatorAI_v1\WindowsBridge\dist\ArdenTranslatorAI-check.exe   - run with --check
+============================================================
+
+Both read %LOCALAPPDATA%\ArdenTranslatorAI\config.json
+and the API key from the current user's environment.
+
+Çë°´ÈÎÒâ¼ü¼ÌÐø. . . 
